@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Video" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ergo.Video">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="iOS" Value="40,20,40,40" />
+                        <On Platform="Android" Value="40,40,40,40" />
+                    </OnPlatform>
+                </StackLayout.Padding>
+                <StackLayout Margin="0,0,0,30">
+                    <Frame Padding="0" CornerRadius="18" IsClippedToBounds="True">
+                        <Image Source="hjerte1.png" HeightRequest="420" Aspect="AspectFill"/>
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Hjertet" FontAttributes="Bold" TextColor="#5495F8" FontSize="30" Margin="0, 0, 0, 30"/>
+                    <Label Text="Blodets støm til, gennem og fra hjertet" TextColor="#464646" FontSize="20" Margin="0, 0, 0, 15"/>
+                    <Label LineBreakMode="WordWrap">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span TextColor="#464646" FontSize="14" Text="Lorem ipsum dolor sit amet, agam corpora vulputate id eum. Et malis iisque praesent pro, in pri dolorum recusabo. Et dolorum recusabo eos, nam ex suas choro rationibus. Nihil vocent consectetuer ad his, eu nec malis prompta. Ei dolor decore maiorum nec, vivendo fuisset appareat sit ex. No mea nostrud probatus, vix tacimates maluisset et. Viris tritani id has, natum clita accusata et mel, te dolore facilisis vim. Error cetero copiosae eam at. Labores fierent sea ut, in ius commune abhorreant, eam ubique audiam ea. Alia stet reprehendunt cu nec, vix at latine persius persecuti, purto laudem eos ut. Duo summo congue ad,"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button x:Name="btn_Forward" 
+                BackgroundColor="Transparent"
+                VerticalOptions="End"
+                HorizontalOptions="End">
+                        <Button.Image>
+                            <OnPlatform x:TypeArguments="FileImageSource" 
+                            iOS="ForwardArrow.png" 
+                            Android="ForwardArrow.png"/>
+                        </Button.Image>
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

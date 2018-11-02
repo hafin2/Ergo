@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ergo.Complete">
+
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+                
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+    
+    
+
+    <StackLayout Grid.Row="0" 
+               Grid.Column="0"
+                 VerticalOptions="Center">
+        
+        <Image Source="Completed.png"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0, 0, 0, 30"/>
+        
+        <Label Text="Lesson completed" 
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="#5495F8"
+               FontSize="40"
+               FontAttributes="Bold"/>
+          
+    </StackLayout>
+    <StackLayout Grid.Row="1" 
+               Grid.Column="0"
+                 HorizontalOptions="End"
+                 Padding="0,0,40,40">
+       <Button x:Name="btn_Home">
+            <Button.Image>
+                <OnPlatform x:TypeArguments="FileImageSource" 
+                            iOS="btnHome.png" 
+                            Android="btnHome.png"/>
+            </Button.Image>
+        </Button>
+    </StackLayout>
+
+
+        
+</Grid>
+</ContentPage>

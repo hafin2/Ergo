@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ergo.Step2">
+<ContentPage.Content>
+        <Grid Padding="40" RowSpacing="0" ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            
+            <Label Text="Step 2" 
+                   Grid.Column="0" 
+                   Grid.ColumnSpan="2" 
+                   Grid.Row="0" 
+                   HorizontalOptions="Start" 
+                   VerticalOptions="Center" 
+                   TextColor="#5495F8" 
+                   FontSize="40" 
+                   FontAttributes="Bold" 
+                   Margin="0, 30" />
+            
+            <StackLayout Grid.Column="0" 
+                         Grid.ColumnSpan="2" 
+                         Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Frame Grid.Column="0" 
+                           BackgroundColor="#F9F9F9" 
+                           HasShadow="false" 
+                           Margin="0, 0, 25, 0" 
+                           Padding="30" 
+                           CornerRadius="18">
+                        <StackLayout>
+                            <Label Text="Do this and that!"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   Margin="0"
+                                   TextColor="#464646"
+                                   VerticalOptions="Center"
+                                   HeightRequest="34"/>
+                            
+                            <Label Text="Lorem ipsum dolor sit amet, agam corpora vulputate id eum. Et malis iisque praesent pro, in pri dolorum recusabo. Et dolorum recusabo eos, nam ex suas choro rationibus. Nihil vocent consectetuer ad his, eu nec malis prompta. Ei dolor decore maiorum nec, vivendo fuisset appareat sit ex. No mea nostrud probatus, vix tacimates maluisset et."
+                                   Margin="0, 5, 0, 5"
+                                   FontSize="13"
+                                   TextColor="#464646"/>
+                        </StackLayout>
+                    </Frame>
+                    
+                    <Frame Grid.Column="1"
+                           BackgroundColor="Transparent"
+                           HasShadow="false"
+                           Margin="25, 0, 0, 0"
+                           Padding="0"
+                           CornerRadius="18"
+                           IsClippedToBounds="true"
+                           HeightRequest="300">
+                        <Image Source="Skelet.jpg" Aspect="AspectFill"/>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            
+            <Frame Grid.Row="2" 
+                   Grid.Column="0" 
+                   Grid.ColumnSpan="2" 
+                   HasShadow="false" 
+                   Margin="0">
+                <Grid Margin="0" Padding="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <FlexLayout JustifyContent="Center" 
+                                AlignItems="Center" 
+                                Grid.Column="1" 
+                                Grid.Row="1">
+                        <Image Source="SliderSelected.png" Margin="9" />
+                        <Image Source="SliderSelected.png" Margin="9" />
+                        <Image Source="Slider.png" Margin="9" />
+                    </FlexLayout>
+                    
+                    <Button x:Name="btn_Forward" Text="" 
+                            BackgroundColor="Transparent" 
+                            Grid.Column="2" 
+                            Grid.Row="1" 
+                            HorizontalOptions="End" 
+                            VerticalOptions="Center">
+                        <Button.Image>
+                            <OnPlatform x:TypeArguments="FileImageSource" 
+                                        iOS="ForwardArrow.png" 
+                                        Android="ForwardArrow.png" />
+                        </Button.Image>
+                    </Button>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

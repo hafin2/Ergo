@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ContentPage NavigationPage.HasNavigationBar="false" Title="Home" Icon="home.png" xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ergo.Home">
+ 
+        <ScrollView>
+
+        <Grid RowSpacing="40" Padding="40" ColumnSpacing="40" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65" />
+            <RowDefinition Height="420" />
+            <RowDefinition Height="300" />
+        </Grid.RowDefinitions>
+                
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+                
+            
+        <FlexLayout JustifyContent="SpaceBetween"
+               AlignItems="Center"
+               Grid.Row="0" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="14" 
+               Grid.RowSpan="1">
+            
+        <Label Text="Todays lesson"
+               FontAttributes="Bold"
+               TextColor="#5495F8" 
+               FontSize="50" 
+               HorizontalOptions="Start" 
+               VerticalOptions="Start"
+               />
+    <StackLayout Orientation="Horizontal" HeightRequest="45">        
+        <StackLayout Padding="0,3,10,0">
+            <Label Text="Lene Mikkelsen"
+               FontAttributes="None"
+               TextColor="#000" 
+               FontSize="14" 
+               HorizontalOptions="End" 
+               VerticalOptions="Start"
+               />
+                    
+            <Label Text="OPBWU18FINT"
+               FontAttributes="None"
+               TextColor="#5495F8" 
+               FontSize="12" 
+               HorizontalOptions="End" 
+               VerticalOptions="Start"
+               />  
+        </StackLayout>
+        <Frame CornerRadius="22"
+                HasShadow="true"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="profile.jpeg" WidthRequest="45" Aspect="AspectFill"/>
+        </Frame> 
+    </StackLayout>
+        
+                
+        </FlexLayout>
+            
+        <Frame  x:Name="hjerte"
+                Grid.Row="1" 
+                Grid.Column="0" 
+                Grid.ColumnSpan="8" 
+                Grid.RowSpan="1" 
+                CornerRadius="25"
+                HasShadow="true"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="hjerte1.png" Aspect="AspectFill"/>
+                
+        </Frame> 
+           
+            <FlexLayout AlignItems="End"
+                        Grid.Row="1" 
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="8" 
+                        Grid.RowSpan="1" >   
+                       
+                        <StackLayout VerticalOptions="End" 
+                                 Padding="20">
+                        
+                            
+                            <Label Text="Hjertet"  
+                                   TextColor="White"
+                                   FontSize="30"/>
+                            
+                            <Label Text="Blodets strøm til, gennem og fra hjertet"  
+                                   TextColor="White"
+                                   FontSize="16"/>
+                            
+                    </StackLayout>
+            </FlexLayout>
+            <Button x:Name="VideoBtn" Grid.Row="1" 
+                Grid.Column="0" 
+                Grid.ColumnSpan="8"
+                Grid.RowSpan="1"> 
+                
+            </Button>
+
+            
+           
+        <Frame  x:Name="notes" 
+                Grid.Row="1" 
+                Grid.Column="8" 
+                Grid.ColumnSpan="6"
+                Grid.RowSpan="1"
+                CornerRadius="25"
+                HasShadow="true"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="notesImg.png" Aspect="AspectFill"/>
+                
+        </Frame> 
+           
+            <FlexLayout AlignItems="End"
+                        Grid.Row="1" 
+                        Grid.Column="8" 
+                        Grid.ColumnSpan="6"
+                        Grid.RowSpan="1">
+                       
+                        <StackLayout VerticalOptions="End" 
+                                 Padding="20">
+                        
+                            
+                            <Label Text="Notes"  
+                                   TextColor="White"
+                                   FontSize="30"/>
+                            
+                            <Label Text="See todays notes"  
+                                   TextColor="White"
+                                   FontSize="16"/>
+                            
+                    </StackLayout>
+            </FlexLayout>
+
+            
+         
+
+           
+        <Frame  x:Name="scenarios" 
+                Grid.Row="2"
+                Grid.Column="0" 
+                Grid.ColumnSpan="6"
+                Grid.RowSpan="1"
+                CornerRadius="25"
+                HasShadow="true"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="scenarios.png" Aspect="AspectFill"/>
+        </Frame> 
+           
+            <FlexLayout AlignItems="End"
+                        Grid.Row="2"
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="6"
+                        Grid.RowSpan="1">
+                       
+                        <StackLayout VerticalOptions="End" 
+                                 Padding="20">
+                        
+                            
+                            <Label Text="Scenarios"  
+                                   TextColor="White"
+                                   FontSize="30"/>
+                            
+                            <Label Text="Lorem ipsum dolor sit amet, agam corpora"  
+                                   TextColor="White"
+                                   FontSize="16"/>
+                            
+                    </StackLayout>
+            </FlexLayout>                       
+                
+                
+        <Frame  x:Name="lectures" 
+                Grid.Row="2"
+                Grid.Column="6" 
+                Grid.ColumnSpan="8"
+                Grid.RowSpan="1"
+                CornerRadius="25"
+                HasShadow="true"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="lectures.png" Aspect="AspectFill"/>
+        </Frame> 
+           
+            <FlexLayout AlignItems="End"
+                        Grid.Row="2"
+                        Grid.Column="6" 
+                        Grid.ColumnSpan="8"
+                        Grid.RowSpan="1">
+                       
+                        <StackLayout VerticalOptions="End" 
+                                 Padding="20">
+                        
+                            
+                            <Label Text="Lectures"  
+                                   TextColor="White"
+                                   FontSize="30"/>
+                            
+                            <Label Text="Lorem ipsum dolor sit amet, agam corpora"  
+                                   TextColor="White"
+                                   FontSize="16"/>
+                            
+                    </StackLayout>
+            </FlexLayout>                       
+                
+    </Grid>
+</ScrollView>
+</ContentPage>
+
