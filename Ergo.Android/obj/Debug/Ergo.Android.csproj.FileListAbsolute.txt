@@ -1,0 +1,2 @@
+/Users/michellethomsen/Desktop/Ergo/Ergo.Android/obj/Debug/Ergo.Android.csprojAssemblyReference.cache
+/Users/michellethomsen/Desktop/Ergo/Ergo.Android/obj/Debug/res.flag
