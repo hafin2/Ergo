@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{2A52CBC6-9DF5-4148-9281-B598A09A9797}|Default">
+﻿<Properties StartupConfiguration="{1510FE83-0354-4A98-AFE2-A42854EA9C31}|Default">
   <MonoDevelop.Ide.ItemProperties.Ergo.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.0.0-20/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
-      <File FileName="Ergo/Step1.xaml" Line="147" Column="1" />
+      <File FileName="Ergo/Step1.xaml" Line="15" Column="34" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.0.0-20/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1635" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,5 +11,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Ergo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FFA90BF9-A198-4EE5-8354-CD17BA5A5076" />
   <MultiItemStartupConfigurations />
 </Properties>
