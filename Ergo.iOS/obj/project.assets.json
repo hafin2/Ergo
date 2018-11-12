@@ -719,19 +719,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/michellethomsen/.nuget/packages/": {}
+    "/Users/hassefinderup/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michellethomsen/Desktop/Ergo/Ergo.iOS/Ergo.iOS.csproj",
+      "projectUniqueName": "/Users/hassefinderup/Projects/Ergo/Ergo.iOS/Ergo.iOS.csproj",
       "projectName": "Ergo.iOS",
-      "projectPath": "/Users/michellethomsen/Desktop/Ergo/Ergo.iOS/Ergo.iOS.csproj",
-      "packagesPath": "/Users/michellethomsen/.nuget/packages/",
-      "outputPath": "/Users/michellethomsen/Desktop/Ergo/Ergo.iOS/obj",
+      "projectPath": "/Users/hassefinderup/Projects/Ergo/Ergo.iOS/Ergo.iOS.csproj",
+      "packagesPath": "/Users/hassefinderup/.nuget/packages/",
+      "outputPath": "/Users/hassefinderup/Projects/Ergo/Ergo.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/michellethomsen/.config/NuGet/NuGet.Config"
+        "/Users/hassefinderup/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -742,8 +742,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/michellethomsen/Desktop/Ergo/Ergo/Ergo.csproj": {
-              "projectPath": "/Users/michellethomsen/Desktop/Ergo/Ergo/Ergo.csproj"
+            "/Users/hassefinderup/Projects/Ergo/Ergo/Ergo.csproj": {
+              "projectPath": "/Users/hassefinderup/Projects/Ergo/Ergo/Ergo.csproj"
             }
           }
         }

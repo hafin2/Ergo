@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/michellethomsen/.nuget/packages/": {}
+    "/Users/hassefinderup/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michellethomsen/Desktop/Ergo/Ergo.Android/Ergo.Android.csproj",
+      "projectUniqueName": "/Users/hassefinderup/Projects/Ergo/Ergo.Android/Ergo.Android.csproj",
       "projectName": "Ergo.Android",
-      "projectPath": "/Users/michellethomsen/Desktop/Ergo/Ergo.Android/Ergo.Android.csproj",
-      "packagesPath": "/Users/michellethomsen/.nuget/packages/",
-      "outputPath": "/Users/michellethomsen/Desktop/Ergo/Ergo.Android/obj",
+      "projectPath": "/Users/hassefinderup/Projects/Ergo/Ergo.Android/Ergo.Android.csproj",
+      "packagesPath": "/Users/hassefinderup/.nuget/packages/",
+      "outputPath": "/Users/hassefinderup/Projects/Ergo/Ergo.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/michellethomsen/.config/NuGet/NuGet.Config"
+        "/Users/hassefinderup/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -804,8 +804,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/michellethomsen/Desktop/Ergo/Ergo/Ergo.csproj": {
-              "projectPath": "/Users/michellethomsen/Desktop/Ergo/Ergo/Ergo.csproj"
+            "/Users/hassefinderup/Projects/Ergo/Ergo/Ergo.csproj": {
+              "projectPath": "/Users/hassefinderup/Projects/Ergo/Ergo/Ergo.csproj"
             }
           }
         }
